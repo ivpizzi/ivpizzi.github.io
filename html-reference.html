@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    
+    <h1>HTML Reference Page - Bella</h1>
+    <a href="https://ivpizzi.github.io/">Home Page</a>
+    <hr>
+    
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Start Tag</th> 
+        <th>End Tag</th>
+        <th>Example</th>
+      </tr>
+      <tr>
+        <td><a href="#html">HTML</a></td>
+        <td>&lt;html&gt;</td> 
+        <td>&lt;/html&gt;</td>
+        <td>&lt;!DOCTYPE&gt;
+             &lt;html&gt;
+              &lt;head&lt;
+      
+              &lt;/head&gt;
+              &lt;body&lt;
+      
+              &lt;/body&gt;
+              &lt;html&gt;
+        </td>
+      </tr>
+      <tr>
+        <td><a href="#head">Head</a></td>
+        <td>&lt;head&gt;</td> 
+        <td>&lt;/head&gt;</td>
+        <td>&lt;head&gt;
+            &lt;title&gt; ... &lt;/title&gt;
+            &lt;/head&gt;</td>
+      </tr>
+      <tr>
+        <td><a href="#title">Title</a></td>
+        <td>&lt;title&gt;</td> 
+        <td>&lt;/title&gt;</td>
+        <td>&lt;head&gt;
+            &lt;title&gt; My Website &lt;/title&gt;
+            &lt;/head&gt;</td>
+      </tr>
+      <tr>
+        <td><a href="#body">Body</a></td>
+        <td>&lt;body&gt;</td> 
+        <td>&lt;/body&gt;</td>
+        <td>&lt;body&gt;
+            &lt;h2&gt;Heading&lt;/h2&gt;
+            &lt;p&gt;This is a paragraph.&lt;/p&gt;
+            &lt;/body&gt;</td>
+      </tr>
+      <tr>
+        <td><a href="#headings">Headings</a></td>
+        <td>&lt;h(#)&gt;</td> 
+        <td>&lt;/h(#)&gt;</td>
+        <td>&lt;h1&gt;Heading&lt;/h1&gt;
+      &lt;p&gt;
+        This is a paragraph.
+      &lt;/p&gt;</td>
+      </tr>
+      <tr>
+        <td><a href="#paragraphs">Paragraphs</a></td>
+        <td>&lt;p&gt;</td> 
+        <td>&lt;/p&gt;</td>
+        <td>&lt;body&gt;
+        &lt;h2&gt;Heading&lt;/h2&gt;
+        &lt;p&gt;This is a paragraph.&lt;/p&gt;
+      &lt;/body&gt;</td>
+      </tr>
+      <tr>
+        <td><a href="#breaks">Breaks</a></td>
+        <td>&lt;hr&gt;</td> 
+        <td>N/A</td>
+        <td>&lt;p&gt;
+        ...paragraph 1...
+      &lt;/p&gt;
+      &lt;br&gt;
+      &lt;p&gt;
+        ...paragraph 2...
+      &lt;/p&gt;</td>
+      </tr>
+      <tr>
+        <td><a href="#lines">Lines</a></td>
+        <td>&lt;hr&gt;</td> 
+        <td>N/A</td>
+        <td>&lt;h2&gt;Section 1&lt;/h2&gt;
+      &lt;p&gt;
+        ...words...
+      &lt;/p&gt;
+      &lt;hr&gt;
+      &lt;h2&gt;Section 2&lt;/h2&gt;
+      &lt;p&gt;
+      ...words...
+      &lt;/p&gt;</td>
+      </tr>
+      <tr>
+        <td><a href="#comments">Comments</a></td>
+        <td>&lt;!--  --&gt;</td> 
+        <td>N/A</td>
+        <td>&lt;!-- Paragraph 1 --&gt;
+      &lt;p&gt;
+        ...paragraph...
+      &lt;/p&gt;</td>
+      </tr>
+      <tr>
+        <td><a href="#links">Links</a></td>
+        <td>&lt;a href="(URL here)"&gt;</td> 
+        <td>&lt;/a&gt;</td>
+        <td>&lt;a href="https://www.google.com/"&gt;Google&lt;/a&gt;</td>
+      </tr>
+      <tr>
+        <td><a href="#images">Images</a></td>
+        <td>&lt;img src="(image URL or file name)"&gt;</td> 
+        <td>N/A</td>
+        <td>&lt;img src="cat.png" width="100px" height="200px" alt="Cat Picture"&gt;</td>
+      </tr>
+      <tr>
+        <td><a href="#lists">Lists</a></td>
+        <td>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;</td> 
+        <td>&lt;/ul&gt;, &lt;/ol&gt;, &lt;/li&gt;</td>
+        <td>&lt;ul&gt;
+      &lt;li&gt; Milk &lt;/li&gt;
+      &lt;li&gt; Eggs &lt;/li&gt;
+      &lt;li&gt; Flour &lt;/li&gt;
+      &lt;li&gt; Sugar &lt;/li&gt;
+      &lt;/ul&gt;</td>
+      </tr>
+      <tr>
+        <td><a href="#tables">Tables</a></td>
+        <td>&lt;table&gt;, &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;</td> 
+        <td>&lt;/table&gt;, &lt;/tr&gt;, &lt;/th&gt;, &lt;/td&gt;</td>
+        <td>&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Day&lt;/th&gt;
+    &lt;th&gt;Month&lt;/th&gt;
+    &lt;th&gt;Year&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;26&lt;/td&gt;
+    &lt;td&gt;May&lt;/td&gt; 
+    &lt;td&gt;2014&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;29&lt;/td&gt;
+    &lt;td&gt;May&lt;/td&gt;
+    &lt;td&gt;2012&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</td>
+      </tr>
+      <tr>
+        <td><a href="#blocks">Blocks</a></td>
+        <td>&lt;div&gt;, &lt;span&gt;</td> 
+        <td>&lt;/div&gt;, &lt;/span&gt;</td>
+        <td>&lt;div style="color:blue"&gt;
+    &lt;p&gt;
+      This is paragraph 1.
+    &lt;/p&gt;
+    &lt;p&gt;
+      This is paragraph 2.
+    &lt;/p&gt;
+  &lt;/div&gt;</td>
+      </tr>
+    </table>
+    
+    <hr>
+    
+    <h2>A Valid HTML Page</h2>
+    <p>
+      All HTML pages must have a couple of things. The first is the &lt;!DOCTYPE&gt; tag, which lets the computer know that the file will hold HTML code. The &lt;html&gt; tag actually holds the code inside of it (see HTML Tag section). Inside the HTML tag are the &lt;head&gt; and &lt;body&gt; tags.
+    </p>
+    
+    <hr>
+    
+    <h2 id = "html">HTML Tag</h2>
+    
+    <h3>Description</h3>
+    <p>
+      The HTML tag is used to communicate to the computer that the HTML code of the website will be inside of it.
+    </p>
+    
+    <h3>Syntax</h3>
+    <pre>
+      &lt;html&gt;
+        
+        ...HTML code here...
+        
+      &lt;/html&gt;
+    </pre>
+    
+    <h3>Example</h3>
+    <p>
+      The HTML tag must ALWAYS be used in order to program in HTML. It is used in the standard setup of the website, like so:
+    </p>
+    <pre>
+      &lt;!DOCTYPE&gt;
+      &lt;html&gt;
+      &lt;head&lt;
+      
+      &lt;/head&gt;
+      &lt;body&lt;
+      
+      &lt;/body&gt;
+      &lt;html&gt;
+    </pre>
+    
+    <h3>Rendering</h3>
+    <p>
+      The html tag, of course, does not show up on the screen. It has no visual output; it is only meant to hold the code.
+    </p>
+    
+    <a href="https://www.w3schools.com/html/html_basic.asp">W3Schools link</a>
+    
+    <hr>
+    
+    <h2 id = "head">Head Tag</h2>
+    
+    <h3>Description</h3>
+    <p>
+      The &lt;head&gt; tag has many uses, all of which are the ability to use another tag within itself to give important information about the website, like a &lt;title&gt; or a &lt;style&gt; for the website.
+    </p>
+    
+    <h3>Syntax</h3>
+    <pre>
+      &lt;head&gt;
+      
+        ...code...
+        
+      &lt;head&gt;
+    </pre>
+    
+    <h3>Example</h3>
+    <p>
+      The title of a website may be created inside of the head tag (see Title Tag section for more):
+    </p>
+    <pre>
+      &lt;head&gt;
+      &lt;title&gt; ... &lt;/title&gt;
+      &lt;/head&gt;
+    </pre>
+    
+    <h3>Rendering</h3>
+    <p>
+      Most of the code put into the head tag will not show up on the finished website. However, there are a few exceptions, one of which, for example, is the &lt;style&gt; tag, which can change the overall look of the website.
+    </p>
+    
+    <p>
+      **No W3Schools link
+    </p>
+    
+    <hr>
+    
+    <h2 id = "title">Title Tag</h2>
+    
+    <h3>Description</h3>
+    <p>
+      The title tag adds a title to the website, which shows up not on the actual page, but instead on the tab at the top of the browser that the website is being viewed on.
+    </p>
+    
+    <h3>Syntax</h3>
+    <pre>
+      &lt;head&gt;
+      &lt;title&gt; ... &lt;/title&gt;
+      &lt;/head&gt;
+    </pre>
+    
+    <h3>Example</h3>
+    <p>
+      To name a website "My Website," do the following inside of the head tag:
+    </p>
+    <pre>
+      &lt;head&gt;
+      &lt;title&gt; My Website &lt;/title&gt;
+      &lt;/head&gt;
+    </pre>
+    
+    <h3>Rendering</h3>
+    <p>
+      Rather than appearing on the website, the title will be shown on the tab at the top of a browser.
+    </p>
+    
+    <p>
+      **No W3Schools link
+    </p>
+    <hr>
+    
+    <h2 id = "body">Body Tag</h2>
+    
+    <h3>Description</h3>
+    <p>
+      The body tag holds most of the content, including the paragraphs, images, and most visible parts of the website.
+    </p>
+    
+    <h3>Syntax</h3>
+    <pre>
+      &lt;body&gt;
+      ...content...
+      &lt;/body&gt;
+    </pre>
+    
+    <h3>Example</h3>
+    <p>
+      One thing included in the body tag is all of the headings and paragraphs on your website:
+    </p>
+    <pre>
+      &lt;body&gt;
+        &lt;h2&gt;Heading&lt;/h2&gt;
+        &lt;p&gt;This is a paragraph.&lt;/p&gt;
+      &lt;/body&gt;
+    </pre>
+    
+    <h3>Rendering</h3>
+    <p>
+      Everything created inside of the body tag will show up on the website, including things like headings, paragraphs, images, etc.
+    </p>
+    
+    <a href="https://www.w3schools.com/html/html_basic.asp">W3Schools link</a>
+    <hr>
+    
+    <h2 id = "headings">Headings</h2>
+    
+    <h3>Description</h3>
+    <p>
+      A heading is just what it sounds like-- a  heading. It can be used as a title of a paragraph on a website.
+    </p>
+    
+    <h3>Syntax</h3>
+    <p>
+      Use the tag &lt;h1&gt; to create a heading, and decrease the number after "h" in the tag in order to make the heading a smaller size:
+    </p>
+    <pre>
+      &lt;h1&gt;Heading&lt;/h1&gt;
+      &lt;h1&gt;Heading&lt;/h1&gt;
+      &lt;h1&gt;Heading&lt;/h1&gt;
+      &lt;h1&gt;Heading&lt;/h1&gt;
+    </pre>
+    <p>
+      This will create:
+    </p>
+    <h1>Heading</h1>
+    <h2>Heading</h2>
+    <h3>Heading</h3>
+    <h4>Heading</h4>
+    
+    <h3>Example</h3>
+    <p>
+      A heading above a paragraph:
+    </p>
+    <pre>
+      &lt;h1&gt;Heading&lt;/h1&gt;
+      &lt;p&gt;
+        This is a paragraph.
+      &lt;/p&gt;
+    </pre>
+    
+    <h3>Rendering</h3>
+    <p>
+      As shown before, a heading will appear smaller and smaller as the number used in the tag decreases.
+    </p>
+    
+    <a href="https://www.w3schools.com/html/html_headings.asp">W3Schools link</a>
+    <hr>
+    
+    <h2 id = "paragraphs">Paragraphs</h2>
+    
+    <h3>Description</h3>
+    <p>
+      A paragraph can display any amount of any text; whether it is a sentence, or, of course, a paragraph.
+    </p>
+    
+    <h3>Syntax</h3>
+    <pre>
+      &lt;p&gt;
+        ...words...
+      &lt;/p&gt;
+    </pre>
+    
+    <h3>Example</h3>
+    <p>
+      A simple line of text is displayed from this code:
+    </p>
+    <pre>
+      &lt;p&gt;
+        This is a paragraph.
+      &lt;/p&gt;
+    </pre>
+    
+    <h3>Rendering</h3>
+    <p>
+      A paragraph will show up on the screen as whatever text has been entered into the tag.
+    </p>
+    
+    <a href="https://www.w3schools.com/html/html_paragraphs.asp">W3Schools link</a>
+    <hr>
+    
+    <h2 id = "breaks">Breaks</h2>
+    
+    <h3>Description</h3>
+    <p>
+      A break is shown as an empty line, usually in between paragraphs.
+    </p>
+    
+    <h3>Syntax</h3>
+    <pre>
+      &lt;br&gt;
+    </pre>
+    
+    <h3>Example</h3>
+    <p>
+      To add a break in between two paragraphs:
+    </p>
+    <pre>
+      &lt;p&gt;
+        ...paragraph 1...
+      &lt;/p&gt;
+      &lt;br&gt;
+      &lt;p&gt;
+        ...paragraph 2...
+      &lt;/p&gt;
+    </pre>
+    
+    <h3>Rendering</h3>
+    <p>
+      A break shows up as an empty space in between two aspects of a website.
+    </p>
+    
+    <a href="https://www.w3schools.com/html/html_elements.asp">W3Schools link</a>
+    <hr>
+    
+    <h2 id = "lines">Lines</h2>
+    
+    <h3>Description</h3>
+    <p>
+      A line can be create in HTML. These may be used for clarifying the break between two sections of a website.
+    </p>
+    
+    <h3>Syntax</h3>
+    <pre>
+      &lt;hr&gt;
+    </pre>
+    
+    <h3>Example</h3>
+    <p>
+      Divide two sections of a website:
+    </p>
+    <pre>
+      &lt;h2&gt;Section 1&lt;/h2&gt;
+      &lt;p&gt;
+        ...words...
+      &lt;/p&gt;
+      &lt;hr&gt;
+      &lt;h2&gt;Section 2&lt;/h2&gt;
+      &lt;p&gt;
+      ...words...
+      &lt;/p&gt;
+    </pre>
+    
+    <h3>Rendering</h3>
+    <p>
+      It will show up as a horizontal line across the entire width of the screen. 
+    </p>
+    
+    <p>
+      **No W3Schools link
+    </p>
+    <hr>
+    
+    <h2 id = "comments">Comments</h2>
+    
+    <h3>Description</h3>
+    <p>
+      A comment, unlike anything that will show up on a website, was specifically created NOT to show up on a website. A comment is used by a website developer to help organize his/her code (mostly by labelling it).
+    </p>
+    
+    <h3>Syntax</h3>
+    <pre>
+      &lt;!-- (The comment goes here) --&gt;
+    </pre>
+    
+    <h3>Example</h3>
+    <p>
+      Add a comment to organize your code, such as labelling paragraphs:
+    </p>
+    <pre>
+      &lt;!-- Paragraph 1 --&gt;
+      &lt;p&gt;
+        ...paragraph...
+      &lt;/p&gt;
+    </pre>
+    
+    <h3>Rendering</h3>
+    <p>
+      A comment does not show up on a website.
+    </p>
+    
+    <a href="https://www.w3schools.com/html/html_comments.asp">W3Schools link</a>
+    <hr>
+    
+    <h2 id = "links">Links</h2>
+    
+    <h3>Description</h3>
+    <p>
+      A link can be used to redirect a website user to another website when they click on a certain couple of words or piece of text.
+    </p>
+    
+    <h3>Syntax</h3>
+    <pre>
+      &lt;a href="(website URL here)"&gt; (Text that will show up) &lt;/a&gt;
+    </pre>
+    
+    <h3>Example</h3>
+    <p>
+      Direct someone to Google:
+    </p>
+    <pre>
+      &lt;a href="https://www.google.com/"&gt;Google&lt;/a&gt;
+    </pre>
+    
+    <h3>Rendering</h3>
+    <p>
+      The only thing that will show up on the screen is the text that you decide to display. In the example, that text was "Google".
+    </p>
+    
+    <a href="https://www.w3schools.com/html/html_attributes.asp">W3Schools link</a>
+    <hr>
+    
+    <h2 id = "images">Images</h2>
+    
+    <h3>Description</h3>
+    <p>
+      In HTML, an image may be added to a website. The width and height of the image may be controlled. An alternate string of text may be added in case the image is not able to be loaded.
+    </p>
+    
+    <h3>Syntax</h3>
+    <pre>
+      &lt;img src="(Image URL or file name)" width="(#)px" height="(#)px" alt="(alternate text)"&gt;
+    </pre>
+    
+    <h3>Example</h3>
+    <p>
+      Add an image of a cat:
+    </p>
+    <pre>
+      &lt;img src="cat.png" width="100px" height="200px" alt="Cat Picture"&gt;
+    </pre>
+    
+    <h3>Rendering</h3>
+    <p>
+      An image will show up on the website according to the height and width given. If none are given, it will default to the original size of the image. If something goes wrong that causes the image to not be loaded, the alternate text will show up where the image was supposed to be.
+    </p>
+    
+    <a href="https://www.w3schools.com/html/html_images.asp">W3Schools link</a>
+    <hr>
+    
+    <h2 id = "lists">Lists</h2>
+    
+    <h3>Description</h3>
+    <p>
+      Lists may be displayed on a website. There are two kinds: ordered and unordered. There are many ways of displaying ordered lists, as well, such as by using numbers, letters, or roman numerals.
+    </p>
+    
+    <h3>Syntax</h3>
+    <pre>
+      Unordered list: &lt;ul&gt; ...list items... &lt;/ul&gt;
+      Ordered list: &lt;ol&gt; ...list items... &lt;/ol&gt;
+      List item: &lt;li&gt; ...list item text... &lt;/li&gt;
+    </pre>
+    
+    <h3>Example</h3>
+    <p>
+      A grocery list:
+    </p>
+    <pre>
+      &lt;ul&gt;
+      &lt;li&gt; Milk &lt;/li&gt;
+      &lt;li&gt; Eggs &lt;/li&gt;
+      &lt;li&gt; Flour &lt;/li&gt;
+      &lt;li&gt; Sugar &lt;/li&gt;
+      &lt;/ul&gt;
+    </pre>
+    
+    <h3>Rendering</h3>
+    <p>
+      The way that a list appears on a website depends on how it was programmed, including whether it was ordered or unordered, used numbers, letters, or roman numerals, etc. However, each list item is always on the next line.
+    </p>
+    
+    <a href="https://www.w3schools.com/html/html_lists.asp">W3Schools link</a>
+    <hr>
+    
+    <h2 id = "tables">Tables</h2>
+    
+    <h3>Description</h3>
+    <p>
+      A table is a way to organize information and can be displayed on a website with HTML.
+    </p>
+    
+    <h3>Syntax</h3>
+    <pre>
+      Table: &lt;table&gt;...all table elements...&lt;/table&gt;
+      Table Row: &lt;tr&gt;...table data, headers, etc...&lt;/tr&gt;
+      Table Header: &lt;th&gt;...header name...&lt;/th&gt;
+      Table Data: &lt;td&gt;...text...&lt;/td&gt;
+    </pre>
+    
+    <h3>Example</h3>
+    <p>
+      The code for a table of dates:
+    </p>
+    <pre>
+      &lt;table&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Day&lt;/th&gt;
+    &lt;th&gt;Month&lt;/th&gt;
+    &lt;th&gt;Year&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;26&lt;/td&gt;
+    &lt;td&gt;May&lt;/td&gt; 
+    &lt;td&gt;2014&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;29&lt;/td&gt;
+    &lt;td&gt;May&lt;/td&gt;
+    &lt;td&gt;2012&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+  </pre>
+  <p>
+    Will display the following table:
+  </p>
+  <table>
+  <tr>
+    <th>Day</th>
+    <th>Month</th> 
+    <th>Year</th>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>May</td> 
+    <td>2014</td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>May</td> 
+    <td>2012</td>
+  </tr>
+</table>
+
+<h3>Rendering</h3>
+<p>
+  The way a table looks is completely dependent on the code, plus styles may be added, so a table could look a large variety of different ways. However, the following applies to all tables:
+</p>
+<ul>
+  <li>All table rows display the text written inside the tags, from right to left, perfectly lined up underneath each header</li>
+  <li>All table headers, by default, are bold</li>
+</ul>
+
+<a href="https://www.w3schools.com/html/html_tables.asp">W3Schools link</a>
+<hr>
+
+<h2 id = "blocks">Blocks</h2>
+
+<h3>Discription</h3>
+<p>
+  Tags such as &lt;div&gt; and &lt;span&gt; can be used to divide up portions of an element such as a pararaph, for example, in order to apply something (like a style) to only a part of it. &lt;div&gt; tags are used for blocks of code, and &lt;span&gt; tags are used within one line.
+</p>
+
+<h3>Syntax</h3>
+<pre>
+  Div:  &lt;div&gt;
+        ...block of code...
+        &lt;/div&gt;
+        
+  Span: &lt;span&gt;...a few words...&lt;/span&gt;
+</pre>
+
+<h3>Example</h3>
+<p>
+  Applying style to a section of code:
+</p>
+<pre>
+  &lt;div style="color:blue"&gt;
+    &lt;p&gt;
+      This is paragraph 1.
+    &lt;/p&gt;
+    &lt;p&gt;
+      This is paragraph 2.
+    &lt;/p&gt;
+  &lt;/div&gt;
+</pre>
+<p>
+  Applying to one word in a paragraph:
+</p>
+<pre>
+  &lt;p&gt;
+    This is a &lt;span style="color:red"&gt;paragraph.&lt;/span&gt;
+  &lt;/p&gt;
+</pre>
+
+<h3>Rendering</h3>
+<p>
+  By using &lt;div&gt; and &lt;span&gt; tags, you can change the way some text appears. The way it ends up looking depends on the code and what is changed about those specified sections of code/text.
+</p>
+
+<a href="https://www.w3schools.com/html/html_blocks.asp">W3Schools link</a>
+<hr>
+    
+    
+  </body>
+</html>
+
+
+
+
+
+
+
