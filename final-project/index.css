@@ -1,0 +1,83 @@
+.pgheading
+{
+  background-color: gray;
+  font-family:Arial;
+  color: white;
+  padding: 35px;
+  text-align: center;
+  margin: 0px;
+}
+
+.navbar
+{
+  background-color: black;
+  padding:15px;
+  text-align: center;
+}
+
+.navbar a
+{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.currentpage
+{
+  color: black;
+  background-color: rgb(175, 175, 175);
+}
+
+.currentpage a
+{
+  color: black;
+}
+
+.pgbackground
+{
+  background: url("https://i.pinimg.com/736x/0e/11/76/0e11768400bb9795074d0fbd4bea43fd--seamless-background-pattern-background.jpg") repeat center center fixed;
+}
+
+.pgtext
+{
+  color: black;
+  font-family: Arial;
+  font-size: 18px;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.floatleft
+{
+  float: left;
+}
+
+.imagemargin
+{
+  margin: 10px;
+}
+
+#nailshapeimg
+{
+  float: right;
+  margin: 10px;
+  width: 240px;
+  height: 300px;
+}
+
+body
+{
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
