@@ -35,7 +35,7 @@
 
 .pgbackground
 {
-  background: url("https://i.pinimg.com/736x/0e/11/76/0e11768400bb9795074d0fbd4bea43fd--seamless-background-pattern-background.jpg") repeat center center fixed;
+  background: url("https://ivpizzi.github.io/images/WebsiteBackground.jpg") repeat center center fixed;
 }
 
 .pgtext
@@ -61,8 +61,8 @@
 {
   float: right;
   margin: 10px;
-  width: 240px;
-  height: 300px;
+  width: 360px;
+  height: 450px;
 }
 
 body
