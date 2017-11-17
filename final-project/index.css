@@ -52,6 +52,11 @@
   float: left;
 }
 
+.floatright
+{
+  float: right;
+}
+
 .imagemargin
 {
   margin: 10px;
